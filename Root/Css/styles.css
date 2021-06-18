@@ -5,34 +5,53 @@ span {
 }
 heather {
     text-align: center;
-    background-color: #ffb3f5;
+    background-color: #ff73de;
+}
+.image{
+    background-image: url("/Root/Img/20210131_125505.jpg");
+    background-size: 2000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .title { 
     background-color: #ffc2f7;
     font-family:'Zilla Slab', serif;
-    padding: 1px 1px ; 
+    padding: 5px 5px ; 
+    text-align: center;
 }
-.background {
-    background-color: #ffb3f5;
+.button1{
+    background-color: #ffc2f7;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    border: none;
+    padding: 15px 32px;
+}
+body{
+    background-color:#e3fcff;
 }
 h2 {
     background-color: #ffc2f7;
     text-align: center;
     font-family:'Zilla Slab', serif;
-
-}
-body{
-    background-color:#e6e6e6;
 }
 main{
     font-family: 'Zilla Slab', serif;
     font-weight: 550;
     margin-left: 67px;
     margin-right: 67px;
+    font-size: 18px;
 }
 footer{
     background-color:#ff73de;
     text-align: center;
-    padding: 5px 5px;
+    padding: 2px 2px;
     font-weight: 700;
+}
+p{
+    font-size: 18px;
+    font-weight: 600;
+    font-family:'Zilla Slab', serif;
+    margin-left: 65px;
+    margin-right: 54px;
 }
