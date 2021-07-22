@@ -1,0 +1,62 @@
+$titleColor: #ffc2f7;
+$secondColor: #ff73de;
+$mainFont: 'Zilla Slab', serif;
+
+heather {
+    text-align: center;
+    background-color: $secondColor;
+    .image{
+        background-image: url(../Img/20210131_125505.jpg);
+        background-size: 2000px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .title { 
+        background-color: $titleColor;
+        font-family:$mainFont;
+        padding: 5px 5px ; 
+        text-align: center;
+    }
+}
+.button1{
+    background-color: $titleColor;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    border: none;
+    padding: 15px 32px;
+}
+body{
+    background-color:#e3fcff;
+    margin: 0px;
+    main{
+        font-family: $mainFont;
+        font-weight: 550;
+        margin-left: 67px;
+        margin-right: 67px;
+        font-size: 18px;
+        span {
+            font-weight:700;
+            font-family: 'Patrick Hand', cursive;
+            text-decoration: underline;
+        }
+        h2 {
+            background-color: $titleColor;
+            text-align: center;
+            font-family:$mainFont;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 600;
+            font-family:$mainFont;
+            margin-left: 65px;
+            margin-right: 54px;
+        }
+    }
+}
+footer{
+    background-color:$secondColor;
+    text-align: center;
+    padding: 2px 2px;
+    font-weight: 700;
+}
